@@ -6,4 +6,5 @@
   * [Proxyfy your Terminal](INSTALLATION.md#proxfy-deproxyfy)
   * [Custom Terminal](INSTALLATION.md#custom-terminal)
   * [Homebrew](INSTALLATION.md#homebrew)
+  * [Java](INSTALLATION.md#java)
 

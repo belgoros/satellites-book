@@ -64,4 +64,9 @@ Follow their corresponding guides to setup your Terminal.
 
 Install [Homebrew package manager for macOS](https://brew.sh/) as described in their [documentation](https://docs.brew.sh/Installation.html).
 
+#### Install Java SDK {#java}
+
+Download and install Java SDK from [Oracle download page](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+
+
 
