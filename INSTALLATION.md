@@ -64,6 +64,33 @@ Follow their corresponding guides to setup your Terminal.
 
 Install [Homebrew package manager for macOS](https://brew.sh/) as described in their [documentation](https://docs.brew.sh/Installation.html).
 
+#### Git {#git}
+
+* open your Terminal
+* run `proxyfy` to enable proxy settings.
+* run `brew install git`
+* check the installed version: `git --version`
+* you should get the following result: `git version 2.10.1`(version number could be different)
+
+#### Set up your Git credentials {#git_credentials}
+
+Execute the below commands in your terminal to set up your credentials:
+```
+git config --global user.name "YourFirstName YourLastName"
+git config --global user.email "your.real.address@decathlon.com"
+```
+
+#### Git global settings {#git_global}
+
+* By default, Git runs the git fetch followed by the git merge command if you use the `git pull` command. You can configure git to use `git rebase` instead of `git merge` for the pull command via the following setting: `git config --global branch.autosetuprebase always`
+* enable color highlighting: `git config --global color.ui auto`
+* on Windows systems you can tell Git to convert line endings during a checkout to CRLF and to convert them back to LF during commit: `git config --global core.autocrlf true`
+* to properly handle line endings on Linux and Mac, execute: `git config --global core.autocrlf input`
+* setup a global `.gitignore` file:
+    - Create a `.gitignore_global` file in your User folder (you can opt for another file name if you prefer, just change it below as well)
+    - Run in your Bash terminal or Windows console (command prompt): `git config --global core.excludesfile ~/.gitignore_global`
+* display global git settings: `git config --global --list` to check what you actually have
+
 #### Install Java SDK {#java}
 
 * Download and install Java SDK from [Oracle download page](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
