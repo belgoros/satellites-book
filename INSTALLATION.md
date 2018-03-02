@@ -120,6 +120,7 @@ Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.13.3", arch: "x86_64", family: "mac"
 ```
+* to enable custom settings, copy the content of [settings.xml](./settings.xml) file to your `HOME/.m2/settings.xml` file (create it if it doesn't exist).
 
 #### Install Yarn {#yarn}
 
