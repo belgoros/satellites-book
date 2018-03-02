@@ -132,4 +132,11 @@ You can install [Yarn](https://yarnpkg.com/en/) through the Homebrew package man
 * check the installed Node version: `yarn --version`
 * you should get the following result: `1.3.2` (displayed version could be different)
 
+#### Install IDEs {#ide}
 
+* [IntelliJ](https://www.jetbrains.com/idea/)
+* [Eclipse](http://www.eclipse.org/)
+* Configure:
+    - proxy settings
+    - maven installation path (take care of pointing to the **installed** version instead of using the **bundled** one)
+    - git executable

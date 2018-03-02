@@ -12,3 +12,4 @@
   * [Java](INSTALLATION.md#java)
   * [Maven](INSTALLATION.md#maven)
   * [Yarn](INSTALLATION.md#yarn)
+  * [IDEs](INSTALLATION.md#ide)
