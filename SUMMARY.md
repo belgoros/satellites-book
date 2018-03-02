@@ -7,4 +7,5 @@
   * [Custom Terminal](INSTALLATION.md#custom-terminal)
   * [Homebrew](INSTALLATION.md#homebrew)
   * [Java](INSTALLATION.md#java)
-
+  * [Maven](INSTALLATION.md#maven)
+  * [Yarn](INSTALLATION.md#yarn)

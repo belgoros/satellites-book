@@ -66,7 +66,42 @@ Install [Homebrew package manager for macOS](https://brew.sh/) as described in t
 
 #### Install Java SDK {#java}
 
-Download and install Java SDK from [Oracle download page](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+* Download and install Java SDK from [Oracle download page](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+* check the installed Java version in your Terminal:
+```
+java -version
+```
+You should get the below results (version number could be different depending on SDK version you downloaded in the step before):
+```
+java version "1.8.0_112"
+Java(TM) SE Runtime Environment (build 1.8.0_112-b16)
+Java HotSpot(TM) 64-Bit Server VM (build 25.112-b16, mixed mode)
+```
 
+#### Install Apache Maven {#maven}
+
+The easiest way to install [Apache Maven](https://maven.apache.org/) is via `brew` command (see [Homebrew](INSTALLATION.md#homebrew) installation section).
+* open your Terminal
+* run `proxyfy` to enable proxy settings.
+* run `brew install maven`
+* after the installation finished, check the installed Maven version by running `mvn -v`
+* you should get the below result (jdk version could be different depending on your Java version installed in the [Java](INSTALLATION.md#java) section):
+```
+Maven home: /usr/local/Cellar/maven/3.5.2/libexec
+Java version: 1.8.0_112, vendor: Oracle Corporation
+Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.13.3", arch: "x86_64", family: "mac"
+```
+
+#### Install Yarn {#yarn}
+
+You can install [Yarn](https://yarnpkg.com/en/) through the Homebrew package manager. This will also install Node.js if it is not already installed.
+
+* open your Terminal
+* run `proxyfy` to enable proxy settings.
+* install Node JS with Homebrew: `brew install yarn`
+* check the installed Node version: `yarn --version`
+* you should get the following result: `1.3.2` (displayed version could be different)
 
 
