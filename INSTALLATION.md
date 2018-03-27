@@ -140,3 +140,4 @@ You can install [Yarn](https://yarnpkg.com/en/) through the Homebrew package man
     - proxy settings
     - maven installation path (take care of pointing to the **installed** version instead of using the **bundled** one)
     - git executable
+    - some Java projects use [Lombok](https://projectlombok.org/) library. To fix IDE errors, install corresponding to your IDE Lombok plugin.
