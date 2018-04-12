@@ -139,5 +139,7 @@ You can install [Yarn](https://yarnpkg.com/en/) through the Homebrew package man
 * Configure:
     - proxy settings
     - maven installation path (take care of pointing to the **installed** version instead of using the **bundled** one)
+    - if you use a custom `settings.xml` file for your Maven installation, take care to point your IDE Maven settings to this file.
     - git executable
     - some Java projects use [Lombok](https://projectlombok.org/) library. To fix IDE errors, install corresponding to your IDE Lombok plugin.
+    - some projects use `GWT` framework, take care to download the supported version (actually `2.5.1`) from [GWT Project site](http://www.gwtproject.org/versions.html) and configure your IDE for the project to use it.
