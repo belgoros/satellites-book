@@ -13,3 +13,4 @@
   * [Maven](INSTALLATION.md#maven)
   * [Yarn](INSTALLATION.md#yarn)
   * [IDEs](INSTALLATION.md#ide)
+  * [Postgresql](INSTALLATION.md#postgres)

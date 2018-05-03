@@ -143,3 +143,8 @@ You can install [Yarn](https://yarnpkg.com/en/) through the Homebrew package man
     - git executable
     - some Java projects use [Lombok](https://projectlombok.org/) library. To fix IDE errors, install corresponding to your IDE Lombok plugin.
     - some projects use `GWT` framework, take care to download the supported version (actually `2.5.1`) from [GWT Project site](http://www.gwtproject.org/versions.html) and configure your IDE for the project to use it.
+
+#### Install Postgresql database {#postgres}
+
+The easiest way to install Postgresql database on your Mac is to use [Postgres.app](https://postgresapp.com/).
+Just follow the instructions and your will be done.
