@@ -13,3 +13,5 @@ Installing GitBook is easy and straightforward. Your system just needs to meet t
 * Navigate to the project in your Termminal: `cd satellites-book`
 * Start up the book server: `gitbook serve`
 * Point your browser to `http://localhost:4000/`.
+
+Live version of the gitbook is available [here](https://satellites.gitbook.io/satellites-book)
