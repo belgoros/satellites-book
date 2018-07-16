@@ -86,6 +86,7 @@ git config --global user.email "your.real.address@decathlon.com"
 * enable color highlighting: `git config --global color.ui auto`
 * on Windows systems you can tell Git to convert line endings during a checkout to CRLF and to convert them back to LF during commit: `git config --global core.autocrlf true`
 * to properly handle line endings on Linux and Mac, execute: `git config --global core.autocrlf input`
+* you can also associate your preferred text editor with Git as described [here](https://help.github.com/articles/associating-text-editors-with-git/)
 * setup a global `.gitignore` file:
     - Create a `.gitignore_global` file in your User folder (you can opt for another file name if you prefer, just change it below as well)
     - Run in your Bash terminal or Windows console (command prompt): `git config --global core.excludesfile ~/.gitignore_global`
